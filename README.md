@@ -9,8 +9,11 @@ SQLiteDatabase db;
 SimplerCursor cur = new SimplerCursor(db.query(...));
 
 while(cur.moveToNext()){
+
   String name = cur.getString(COL_NAME); //COL_NAME is a String constant containing the column name
+  
 }
+
 cur.close();
 
 Using CreateBuilder:
